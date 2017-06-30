@@ -1,0 +1,28 @@
+@import "variables";
+
+header {
+  font-size: $header-size;
+  background-color: $header-background-color;
+  color: $header-color;
+  text-shadow: $header-shadow;
+}
+.infoBar {
+  font-size: $info-size;
+  display: $info-display;
+
+}
+.row {
+  margin: $row-margin;
+  background-color: $info-background-color;
+  >.infoBar {
+    padding: $row-padding;
+    }
+}
+.channelTable {
+  > .row:nth-child(even) {
+    background: lightgoldenrodyellow;
+  }
+  > .row:nth-child(odd){
+    background: lightblue;
+  }
+}
