@@ -1,3 +1,22 @@
+header {
+  font-size: 3em;
+  background-color: purple;
+  color: white;
+  text-shadow: white 2px 2px 6px; }
 
+.infoBar {
+  font-size: 2em;
+  display: inline-block; }
+
+.row {
+  margin: 0;
+  background-color: silver; }
+  .row > .infoBar {
+    padding: 1em 0; }
+
+.channelTable > .row:nth-child(even) {
+  background: lightgoldenrodyellow; }
+.channelTable > .row:nth-child(odd) {
+  background: lightblue; }
 
 /*# sourceMappingURL=style.css.map */
